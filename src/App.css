@@ -1,0 +1,43 @@
+.top-container {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.result-container {
+  float:flex;
+  background-color: white;
+  margin:5px;
+}
+
+.btn-clear {
+  float:right;
+  background-color: red;
+  color: white;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+}
+
+.btn-clear:hover{
+  background-color: white;
+  color:red;
+}
+
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #2196F3;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}

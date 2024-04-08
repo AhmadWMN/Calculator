@@ -1,20 +1,41 @@
 .top-container {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   border: 1px solid black;
   border-radius: 5px;
+  background-color: white;
+  width:310px;
+  padding: 15px;
 }
 
 .result-container {
   float:flex;
   background-color: white;
-  margin:5px;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  width:90%;
+  height:50px;
+  margin:10px;
+}
+
+.result-container  h2 {
+   margin:5px;
+   padding: 5px;;
 }
 
 .btn-clear {
   float:right;
+  text-align: center;
   background-color: red;
   color: white;
   border: 1px solid rgba(0, 0, 0, 0.8);
   border-radius: 5px;
+  margin:10px;
+  width: 20px;
+  height:20px;
+  
 }
 
 .btn-clear:hover{
@@ -28,16 +49,34 @@
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  background-color: #2196F3;
+  background-color: white;
   border-radius: 5px;
-  padding: 10px;
+  width:100%;
+  padding: 5px;
 }
 
 
 .grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: #219888;
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
   font-size: 30px;
   text-align: center;
+}
+
+
+.upper-left-corner {
+  border-top-left-radius: 5px;
+}
+
+.upper-right-corner {
+  border-top-right-radius: 5px;
+}
+
+.lower-left-corner {
+  border-bottom-left-radius: 5px;
+}
+
+.lower-right-corner {
+  border-bottom-right-radius: 5px;
 }

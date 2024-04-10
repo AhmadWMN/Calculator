@@ -12,17 +12,26 @@
 
 .result-container {
   float:flex;
-  background-color: white;
+  background-color: rgb(214, 247, 30);
   border: 1px solid rgba(0, 0, 0, 0.8);
   border-radius: 5px;
   width:90%;
-  height:50px;
+  height:100px;
   margin:10px;
+  
+}
+
+.result-field {
+  float:left;
+  width:80%;
+  overflow: hidden;
+  white-space : nowrap;
 }
 
 .result-container  h2 {
    margin:5px;
-   padding: 5px;;
+   padding: 5px;
+     
 }
 
 .btn-clear {
@@ -35,12 +44,14 @@
   margin:10px;
   width: 20px;
   height:20px;
+  z-index: 1;
   
 }
 
 .btn-clear:hover{
   background-color: white;
   color:red;
+  cursor: pointer;
 }
 
 
@@ -62,6 +73,15 @@
   padding: 20px;
   font-size: 30px;
   text-align: center;
+  cursor: pointer;
+}
+
+
+
+.grid-item:hover {
+
+  background-color:rgb(214, 247, 30);
+
 }
 
 
